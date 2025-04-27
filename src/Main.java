@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,17 +9,10 @@ public class Main {
         apple[0] = 1;
         apple[1] = 2;
         apple[2] = 3;
-        System.out.println(apple[0]);
-        System.out.println(apple[1]);
-        System.out.println(apple[2]);
 
         double[] sugar = new double[] {1.57, 7.654, 9.986};
-        System.out.println(sugar[0]);
-        System.out.println(sugar[1]);
-        System.out.println(sugar[2]);
 
         int[] i = new int[]{10, 20, 30, 40, 50, 60, 70, 80, 90};
-        System.out.println(Arrays.toString(i));
 
         System.out.println("---------------------------------------------------------------------------------------------");
         System.out.println("Задача 2");
